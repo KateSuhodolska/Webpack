@@ -1,0 +1,22 @@
+{
+    "name": "c2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "build:styles": "sass ./src/styles/index.scss ./dist/styles.css",
+        "copy": "cp ./src/index.html ./dist/index.html",
+        "copy:scripts": "cp -R ./src/scripts ./dist/scripts",
+        "clean": "rm -rf ./dist",
+        "build": "npm-run-all build:styles copy:*"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.0.0",
+        "sass": "^1.54.5"
+    }
+}
