@@ -1,20 +1,21 @@
 {
-  "name": "c2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.18.13"
-  },
-  "dependencies": {
-    "core-js": "^3.25.0",
-    "react": "16.5"
-  }
+    "name": "c2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.18.10",
+        "@babel/core": "^7.18.13"
+    },
+    "dependencies": {
+        "core-js": "^3.25.0",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2"
+    }
 }
